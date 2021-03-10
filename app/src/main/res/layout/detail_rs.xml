@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail_rs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/img_item_photo"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp" />
+
+        </FrameLayout>
+        <TextView
+            android:id="@+id/detail_nama_rs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            tools:text="Nama RS" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeAtas"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <TextView
+
+                android:id="@+id/alam"
+                style="@style/TextContentDetail"
+                android:text="@string/alamat" />
+
+            <TextView
+                android:id="@+id/titikdua1"
+                style="@style/TextContentTitikDua"
+                android:layout_marginLeft="80dp"
+                android:text="  :  " />
+            <TextView
+                android:id="@+id/detail_alamat_rs"
+                style="@style/TextContentInside"
+                android:layout_marginLeft="100dp"
+                tools:text="Alamat" />
+
+            <TextView
+
+                android:id="@+id/tlpn"
+                style="@style/TextContentDetail"
+                android:layout_below="@id/alam"
+                android:text="@string/telepon" />
+
+            <TextView
+                android:id="@+id/titikdua2"
+                style="@style/TextContentTitikDua"
+                android:layout_marginLeft="80dp"
+                android:layout_below="@id/titikdua1"
+                android:text="  :  " />
+            <TextView
+                android:id="@+id/detail_telepon_rs"
+                style="@style/TextContentInside"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@id/detail_alamat_rs"
+                tools:text="Detail Telepon" />
+
+            <TextView
+                android:id="@+id/kode"
+                style="@style/TextContentDetail"
+                android:layout_below="@id/tlpn"
+                android:text="@string/kode_pos" />
+
+            <TextView
+                android:id="@+id/titikdua3"
+                style="@style/TextContentTitikDua"
+                android:layout_below="@id/titikdua2"
+                android:layout_marginLeft="80dp"
+                android:text="  :  " />
+
+            <TextView
+                android:id="@+id/detail_kodepos_rs"
+                style="@style/TextContentInside"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@id/detail_telepon_rs"
+                tools:text="Detail Kodepos" />
+
+            <TextView
+                android:id="@+id/faxx"
+                style="@style/TextContentDetail"
+                android:layout_below="@id/kode"
+                android:text="@string/fax" />
+
+            <TextView
+                android:id="@+id/titikdua4"
+                style="@style/TextContentTitikDua"
+                android:layout_marginLeft="80dp"
+                android:layout_below="@id/titikdua3"
+                android:text="  :  " />
+
+            <TextView
+                android:id="@+id/detail_fax_rs"
+                style="@style/TextContentInside"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@id/detail_kodepos_rs"
+                tools:text="Detail Fax" />
+
+            <TextView
+                style="@style/TextContentDetail"
+                android:layout_below="@id/faxx"
+                android:text="@string/email" />
+
+            <TextView
+                style="@style/TextContentTitikDua"
+                android:layout_below="@id/titikdua4"
+                android:layout_marginLeft="80dp"
+                android:text="  :  " />
+
+
+            <TextView
+                android:id="@+id/detail_email_rs"
+                style="@style/TextContentInside"
+                android:layout_marginLeft="100dp"
+                android:layout_below="@id/detail_fax_rs"
+                tools:text="Detail Email" />
+       </RelativeLayout>
+
+        <TextView
+            android:id="@+id/detail_tentang_rs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            tools:text="Detail Tentang Rumah Sakit" />
+
+    </LinearLayout>
+
+
+</ScrollView>

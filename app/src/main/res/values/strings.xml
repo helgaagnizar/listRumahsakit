@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Rumah Sakit</string>
+    <string name="nama_rs">Nama Rumah Sakit</string>
+    <string name="detail">Detail</string>
+    <string name="alamat">Alamat</string>
+    <string name="telepon">Telepon</string>
+    <string name="profile_name">Helga Agnizar</string>
+    <string name="email_profile">a1221565@bangkit.academy</string>
+    <string name="list_rumah_sakit">List Rumah Sakit</string>
+    <string name="about">About</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="tentang">Tentang</string>
+    <string name="email">Email</string>
+    <string name="fax">Fax</string>
+    <string name="kode_pos">Kode Pos</string>
+
+</resources>
